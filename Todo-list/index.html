@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitStreak Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>FitStreak</h1>
+        <div class="stats-bar">
+            <span>🔥 Streak: <span id="streak-display" class="streak-count">0 days</span></span>
+            <span id="date-display" style="color: var(--text-secondary)"></span>
+        </div>
+        <div class="badge-container" id="badge-list">
+            </div>
+    </header>
+
+    <div class="input-group">
+        <input type="text" id="todo-input" placeholder="Add workout (e.g., 20 Pushups)...">
+        <button id="add-btn">+</button>
+    </div>
+
+    <ul id="todo-list">
+        </ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
